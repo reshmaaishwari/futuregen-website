@@ -460,13 +460,13 @@ ul { list-style: none; }
   transition: width 0.4s ease;
 }
 .service-card:hover { 
-  background: var(--black-3); 
+  background: var(--white-60);   
   transform: translateY(-4px);
   border-color: rgba(200, 16, 46, 0.2);
 }
 .service-card:hover::after { width: 100%; }
 .service-card.featured {
-  background: var(--black-3);
+  background: var(--white-60);
   border-color: rgba(200, 16, 46, 0.3);
 }
 .service-icon {
